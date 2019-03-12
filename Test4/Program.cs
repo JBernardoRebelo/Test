@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Test4
+namespace TestNumbers
 {
     class Program
     {
