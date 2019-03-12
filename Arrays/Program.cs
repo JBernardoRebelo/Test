@@ -9,7 +9,7 @@ namespace Arrays
             //creating an array of ints
             int[] lickyNumbers = { 4, 8, 15, 16, 24, 48};
             //array of strings
-            string[] crimsonBridge = new string[3];
+            string[] crimsonBridge = new string[4];
             //add strings inside the string array
             //if you didnt before
             crimsonBridge[0] = "bebe";
