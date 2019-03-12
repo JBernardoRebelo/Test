@@ -13,13 +13,11 @@ namespace An_Interactive_program
             //def's var number
             Random number = new Random();
             //returns int from 0 to 100
-            return number.Next(0, 100);
+            return number.Next(0, 10);
         }
 
         //I want to put my if cicle 
-        //here but I cant:
-
-   
+        //here but I cant:       
 
         static void Main(string[] args)
         {
@@ -28,7 +26,7 @@ namespace An_Interactive_program
             string input;
             int num;
             //randomnumber
-            int randnum = RandomNumber(0, 100);
+            int randnum = RandomNumber(0, 10);
 
             //check if random number is working
             Console.WriteLine(randnum);
@@ -43,7 +41,7 @@ namespace An_Interactive_program
 
             //ask number to user
             //converting the input to int
-            Console.Write("Enter any number between 0 and 100: ");
+            Console.Write("Enter any number between 0 and 10: ");
             input = Console.ReadLine();
             num = Convert.ToInt32(input);
 
@@ -51,7 +49,7 @@ namespace An_Interactive_program
             //checks if input is bigger than 10
             //if it is "runs" if
             //if not "runs" else
-            if (num < 100)
+            if (num < 10)
             {
                 //checks if number input can be used
                 //and waits
@@ -89,7 +87,7 @@ namespace An_Interactive_program
                 System.Threading.Thread.Sleep(1000);
             }
 
-            else if (num > 100)
+            else if (num > 10)
             {
                 //checks if number input can be used
                 //and waits
@@ -100,6 +98,16 @@ namespace An_Interactive_program
             {
                 Console.WriteLine("That number is not valid");
                 Console.ReadLine();
+
+
+            //this code could be better optimized
+            //I just need to create a method 
+            //to insert my if statment in
+            //and another one to ask the user for a number
+            //and run them to update the data output by the 
+            //program
+            //THIS IS SPAGHETTI CODE
+
             }
         }
     }
