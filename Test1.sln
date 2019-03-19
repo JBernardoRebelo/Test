@@ -19,9 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test7", "Test7\Test7.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "An Interactive program", "An Interactive program\An Interactive program.csproj", "{431DAB85-9669-4610-92FB-3F7881645D83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{E151FBE8-407B-4195-967B-38FEFD167FB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{E151FBE8-407B-4195-967B-38FEFD167FB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{01540E28-E4E9-4E75-8CB5-00D54FBAA6F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.csproj", "{01540E28-E4E9-4E75-8CB5-00D54FBAA6F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfStatments", "IfStatments\IfStatments.csproj", "{BBA1FFB9-0DAB-4923-9DAC-F907DCBD1887}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{01540E28-E4E9-4E75-8CB5-00D54FBAA6F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01540E28-E4E9-4E75-8CB5-00D54FBAA6F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01540E28-E4E9-4E75-8CB5-00D54FBAA6F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBA1FFB9-0DAB-4923-9DAC-F907DCBD1887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBA1FFB9-0DAB-4923-9DAC-F907DCBD1887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBA1FFB9-0DAB-4923-9DAC-F907DCBD1887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBA1FFB9-0DAB-4923-9DAC-F907DCBD1887}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
