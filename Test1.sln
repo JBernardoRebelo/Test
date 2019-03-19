@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfStatments", "IfStatments\IfStatments.csproj", "{BBA1FFB9-0DAB-4923-9DAC-F907DCBD1887}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Complex-ishProgram", "Complex-ishProgram\Complex-ishProgram.csproj", "{775E7216-613F-4A5F-9A85-F43D15E20814}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{BBA1FFB9-0DAB-4923-9DAC-F907DCBD1887}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBA1FFB9-0DAB-4923-9DAC-F907DCBD1887}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBA1FFB9-0DAB-4923-9DAC-F907DCBD1887}.Release|Any CPU.Build.0 = Release|Any CPU
+		{775E7216-613F-4A5F-9A85-F43D15E20814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{775E7216-613F-4A5F-9A85-F43D15E20814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{775E7216-613F-4A5F-9A85-F43D15E20814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{775E7216-613F-4A5F-9A85-F43D15E20814}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
