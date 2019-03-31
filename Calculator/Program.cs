@@ -18,6 +18,11 @@ namespace Calculator
             double num1;
             double num2;
 
+            //converting doubles to int
+            //used in bit by bit operations
+            int a;
+            int b;
+
             //greets user
             Console.WriteLine("Welcome to the calculator");
             Console.WriteLine("here you must choose 2 numbers");
@@ -33,7 +38,11 @@ namespace Calculator
             Console.WriteLine("Type / to divide");
             Console.WriteLine("Type % for the remainder");
             Console.WriteLine("Type POW to do the power of");
-
+            Console.WriteLine("Type & to AND");
+            Console.WriteLine("Type ^ to XOR");
+            Console.WriteLine("Type | to OR");
+            Console.WriteLine("BIT BY BIT OPERATIONS");
+            Console.WriteLine("WILL CONVERT YOUR NUMBERS TO INTEGERS");
 
             //asks for a number and stores it
             Console.Write("Enter a number: ");
@@ -162,6 +171,36 @@ namespace Calculator
                     //error message
                     Console.WriteLine("Invalid choice of numbers");
                 }
+            }
+            //bit by bit operator, "AND"
+            else if ( op == "&")
+            {
+                //converts nums to int
+                a = Convert.ToInt32(num1);
+                b = Convert.ToInt32(num2);
+                Console.Write("Result: ");
+                //"AND" operation to int numbers
+                Console.WriteLine( a & b);
+            }
+            //XOR operation
+            else if (op == "^")
+            {
+                //converts nums to int
+                a = Convert.ToInt32(num1);
+                b = Convert.ToInt32(num2);
+                Console.Write("Result: ");
+                //"XOR" operation to int numbers
+                Console.WriteLine(a ^ b);
+            }
+            //OR operation
+            else if (op == "|")
+            {
+                //converts nums to int
+                a = Convert.ToInt32(num1);
+                b = Convert.ToInt32(num2);
+                Console.Write("Result: ");
+                //"OR" operation to int numbers
+                Console.WriteLine(a | b);
             }
             //if the user doesn't tipe a valid type of operator
             else
