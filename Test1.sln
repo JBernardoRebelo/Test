@@ -29,7 +29,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Testing", "Testing\Testing.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Calculator.csproj", "{0BC2458C-421C-4548-A097-FCDA9A4765A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhileLoops", "WhileLoops\WhileLoops.csproj", "{0F3C0C62-1ABA-4413-9FFC-2CBCB43DA3CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhileLoops", "WhileLoops\WhileLoops.csproj", "{0F3C0C62-1ABA-4413-9FFC-2CBCB43DA3CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guessing Game", "Guessing Game\Guessing Game.csproj", "{E8EDA2AA-250A-42AA-892B-E891532037DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForLoops!", "ForLoops!\ForLoops!.csproj", "{77DA64FE-9E3D-4A9C-A8E5-CF160F553D57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreMethods", "MoreMethods\MoreMethods.csproj", "{FA02B36A-ED49-401C-8F91-46350AF490C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +99,18 @@ Global
 		{0F3C0C62-1ABA-4413-9FFC-2CBCB43DA3CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F3C0C62-1ABA-4413-9FFC-2CBCB43DA3CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F3C0C62-1ABA-4413-9FFC-2CBCB43DA3CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8EDA2AA-250A-42AA-892B-E891532037DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8EDA2AA-250A-42AA-892B-E891532037DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8EDA2AA-250A-42AA-892B-E891532037DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8EDA2AA-250A-42AA-892B-E891532037DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77DA64FE-9E3D-4A9C-A8E5-CF160F553D57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77DA64FE-9E3D-4A9C-A8E5-CF160F553D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77DA64FE-9E3D-4A9C-A8E5-CF160F553D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77DA64FE-9E3D-4A9C-A8E5-CF160F553D57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA02B36A-ED49-401C-8F91-46350AF490C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA02B36A-ED49-401C-8F91-46350AF490C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA02B36A-ED49-401C-8F91-46350AF490C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA02B36A-ED49-401C-8F91-46350AF490C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

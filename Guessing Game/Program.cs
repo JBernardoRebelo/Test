@@ -14,7 +14,6 @@ namespace Guessing_Game
 
             //asks for a 2nd word
             //runs code until user guesses it
-            //yet again
             do
             {
                 //asks for another word
@@ -41,6 +40,7 @@ namespace Guessing_Game
             {
                 Console.WriteLine("YOU RAN OUT OF GUESSES");
             }
+
         }
         //main method!
         static void Main(string[] args)
