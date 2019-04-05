@@ -18,9 +18,21 @@ namespace Exceptions_
             Console.Write("Enter another number: ");
             num2 = Convert.ToDouble(Console.ReadLine());
 
+            //operation
             result = num1 / num2;
-            //outputs division
-            Console.WriteLine(result);
+
+            //case is infinite
+            if (result == Double.PositiveInfinity)
+            {
+                //result == infinite - try again
+                Console.WriteLine("The result is infinite! Try again!");
+                Division();
+            }
+            else
+            {
+                //outputs division
+                Console.WriteLine(result);
+            }
         }
         static void TheCalling()
         {
