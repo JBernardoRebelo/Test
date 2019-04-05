@@ -13,10 +13,10 @@ namespace Exceptions_
 
             //outputs and conversions to user
             Console.Write("Enter a number: ");
-            num1 = Convert.ToInt32(Console.ReadLine());
+            num1 = Convert.ToDouble(Console.ReadLine());
 
             Console.Write("Enter another number: ");
-            num2 = Convert.ToInt32(Console.ReadLine());
+            num2 = Convert.ToDouble(Console.ReadLine());
 
             result = num1 / num2;
             //outputs division
