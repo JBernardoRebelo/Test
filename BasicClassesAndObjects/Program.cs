@@ -9,20 +9,16 @@ namespace BasicClassesAndObjects
             //class tells us what the data type is
             //object is an instance of that class
             //creating an object from the class "Book"
-            Book book1 = new Book();
+            //assigning the book1 information
+            Book book1 = new Book("Absurdity has become necessity", "Anonymous", 4);
 
             //creation of book 2
-            Book book2 = new Book();
-
-            //assigning the book1 information
-            book1.title = "Absurdity has become necessity";
-            book1.author = "Anonymous";
-            book1.pages = 4;
-
             //book2 information
-            book2.title = "Morning Star v.1";
-            book2.author = "Some High Elf";
-            book2.pages = 10;
+            Book book2 = new Book("Morning Star v.1", "Some High Elf", 10);
+
+            //if we want we can also change the properties of
+            //the object from here
+            book2.title = "Morning Star v.2";
 
             //print atributes of the book
             Console.WriteLine("Book 1");
@@ -35,7 +31,6 @@ namespace BasicClassesAndObjects
             Console.WriteLine("Title: " + book2.title);
             Console.WriteLine("Author: " + book2.author);
             Console.WriteLine("Pages: " + book2.pages);
-
         }
     }
 }
