@@ -41,10 +41,10 @@ namespace Turned_BaseIllusion
             // Reinforces number of maxturns and starts "game"
             Console.WriteLine("You have too survive " + maxturns);
             Console.WriteLine("You only have 1 life... ");
-            
-            // As long as the number of lives is 1 and maxturns
-            // And maxturns asn't been reached run:
-            while (live = true && turns <= maxturns)
+
+            // As long as player is alive and turns haven't ran out
+            // Does the following
+            while (live && turns <= maxturns)
             {
                 // Probability/alive check
                 chance = rng.NextDouble();
@@ -60,18 +60,18 @@ namespace Turned_BaseIllusion
                 }
 
                 // Status message while alive
-                Console.WriteLine("Player has survided Turn #" + turns);
+                Console.WriteLine("Player has survided turn #" + turns);
 
                 if (turns == maxturns)
                 {
                     // Status message when player survives all turns
-                    Console.WriteLine("Player survived after #" + turns + " Turns");
+                    Console.WriteLine("Player survived after " + turns + " turns");
                     break;
                 }
 
                 // Increments number of turns
-                turns++;   
-                
+                turns++;
+
                 // End of while
             }
         }
