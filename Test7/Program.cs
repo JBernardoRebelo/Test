@@ -4,6 +4,7 @@ namespace TimeMachine
 {
     class Program
     {
+        // This program is unfinished and it sucks
         static void Main(string[] args)
         {
 

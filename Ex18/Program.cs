@@ -6,7 +6,9 @@ namespace Ex18
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // THIS IS OBVIUSLY NOTHING -- 
+            // Should do this excercise when 
+            // The time comes
         }
     }
 }

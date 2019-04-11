@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Turned_BaseIllusion
+namespace Exercicio26
 {
     class Program
     {
@@ -8,9 +8,9 @@ namespace Turned_BaseIllusion
         {
             // Declare variables
             int maxturns;
-            int turns = 1;
-            bool live = true;
+            int turns = 0;
             double chance;
+
             // Creating the Random object
             Random rng = new Random();
 
@@ -34,17 +34,12 @@ namespace Turned_BaseIllusion
                 maxturns = Convert.ToInt32(Console.ReadLine());
             }
 
-            // Greets user
-            Console.WriteLine("Hello player, this is NOT");
-            Console.WriteLine("an interactive program");
-
-            // Reinforces number of maxturns and starts "game"
-            Console.WriteLine("You have too survive " + maxturns);
-            Console.WriteLine("You only have 1 life... ");
+            // Reinforces number of maxturns as "game" starts
+            Console.WriteLine("You have too survive " + maxturns + " turns");
 
             // As long as player is alive and turns haven't ran out
             // Does the following
-            while (live && turns <= maxturns)
+            while (turns < maxturns)
             {
                 // Probability/alive check
                 chance = rng.NextDouble();
@@ -52,27 +47,19 @@ namespace Turned_BaseIllusion
                 // Each turn player has chance to die of 2%
                 if (chance < 0.02)
                 {
-                    live = false;
 
                     // Die message
-                    Console.WriteLine("Player has died after #" + turns + " Turns");
+                    Console.WriteLine("Player has died after " + turns + " Turns");
                     break;
                 }
-
-                // Status message while alive
-                Console.WriteLine("Player has survided turn #" + turns);
-
-                if (turns == maxturns)
+                else
                 {
-                    // Status message when player survives all turns
-                    Console.WriteLine("Player survived after " + turns + " turns");
-                    break;
+                    // Increments number of turns
+                    turns++;
+
+                    // Outputs number of turns survived
+                    Console.WriteLine("Player has survided turn #" + turns);
                 }
-
-                // Increments number of turns
-                turns++;
-
-                // End of while
             }
         }
     }

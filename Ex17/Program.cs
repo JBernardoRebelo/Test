@@ -4,16 +4,6 @@ namespace Ex17
 {
     class Program
     {
-        /*
-          - Escreve um programa que solicite ao utilizador um número inteiro
-          e imprima o número seguido de um ponto de exclamação.
-
-          - Por exemplo, ao ler o número sete, vai mostrar no ecrã 7!. 
-          - No entanto, se o número for divisível por 3 vai mostrar "Fizz!"
-          - Se for divisível por 5 vai mostrar Buzz!
-          - Se for divisível por 3 e por 5 mostra FizzBuzz! 
-          -Sugestão: o operador % permite obter o resto da divisão para calcular se dado número é divisível.
-         */
         static void Main(string[] args)
         {
             //declare variables
