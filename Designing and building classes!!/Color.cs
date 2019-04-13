@@ -25,6 +25,14 @@ namespace Designing_and_building_classes__
 
             // Alpha sets to default value
             alpha = maxval;
+
+            // If values entered pass maxval do this
+            if (red > maxval || green > maxval || blue > maxval)
+            {
+                Console.WriteLine("One of the values entered has passed the max value of 250");
+                // Call constructor again or close program
+
+            }
         }
 
         // GET AND SET METHODS START HERE

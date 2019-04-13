@@ -6,5 +6,6 @@ namespace Designing_and_building_classes__
 {
     class Ball
     {
+
     }
 }
