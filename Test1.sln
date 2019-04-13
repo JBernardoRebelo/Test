@@ -51,9 +51,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Turned-BaseIllusion", "Turn
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPGclasses", "RPGclasses\RPGclasses.csproj", "{CAA62B0C-85A7-48B9-A450-C8261097E2A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple-Tile-based-2D-Game", "Simple-Tile-based-2D-Game\Simple-Tile-based-2D-Game.csproj", "{7D3989FF-B307-4812-8547-9FDA4FB278B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simple-Tile-based-2D-Game", "Simple-Tile-based-2D-Game\Simple-Tile-based-2D-Game.csproj", "{7D3989FF-B307-4812-8547-9FDA4FB278B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOINK", "IOINK\IOINK.csproj", "{B482913A-C18A-4FF0-B6BD-416185E98BC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IOINK", "IOINK\IOINK.csproj", "{B482913A-C18A-4FF0-B6BD-416185E98BC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Designing and building classes!!", "Designing and building classes!!\Designing and building classes!!.csproj", "{CF4D2ACD-7931-4A7A-B03F-9779D0DF6938}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +167,10 @@ Global
 		{B482913A-C18A-4FF0-B6BD-416185E98BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B482913A-C18A-4FF0-B6BD-416185E98BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B482913A-C18A-4FF0-B6BD-416185E98BC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF4D2ACD-7931-4A7A-B03F-9779D0DF6938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF4D2ACD-7931-4A7A-B03F-9779D0DF6938}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF4D2ACD-7931-4A7A-B03F-9779D0DF6938}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF4D2ACD-7931-4A7A-B03F-9779D0DF6938}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
