@@ -7,12 +7,12 @@ namespace Designing_and_building_classes__
     class Color
     {
         // Declare variables -- colors
-        // ALL COLORS MAX VALUE == 250
+        // ALL COLORS MAX VALUE == 255
         private int red;
         private int green;
         private int blue;
         private int alpha;
-        private int maxval = 250;
+        private int maxval = 255;
         private float grayscale;
 
         // Making a constructor
@@ -27,12 +27,26 @@ namespace Designing_and_building_classes__
             alpha = maxval;
 
             // If values entered pass maxval do this
-            if (red > maxval || green > maxval || blue > maxval)
+            if (red > maxval)
             {
-                Console.WriteLine("One of the values entered has passed the max value of 250");
-                // Call constructor again or close program
+                // If user types more than maxval assigne it's value
+                Console.WriteLine("Red has been set to 255.");
+                red = maxval;
 
             }
+            else if (green > maxval)
+            {
+                // If user types more than maxval assigne it's value
+                Console.WriteLine("Green has been set to 255.");
+                green = maxval;
+            }
+            else if(blue > maxval)
+            {
+                // If user types more than maxval assigne it's value
+                Console.WriteLine("Blue has been set to 255.");
+                blue = maxval;
+            }
+
         }
 
         // GET AND SET METHODS START HERE
@@ -59,6 +73,7 @@ namespace Designing_and_building_classes__
         // Gets grayscale -- returns average of all colors
         public float GetGrayscale()
         {
+            // Calculates grayscale
             grayscale = (red + green + blue) / 3;
             return grayscale;
         }
@@ -81,6 +96,5 @@ namespace Designing_and_building_classes__
         {
             this.blue = blue;
         }
-
     }
 }
