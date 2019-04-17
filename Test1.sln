@@ -55,7 +55,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simple-Tile-based-2D-Game",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IOINK", "IOINK\IOINK.csproj", "{B482913A-C18A-4FF0-B6BD-416185E98BC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Designing and building classes!!", "Designing and building classes!!\Designing and building classes!!.csproj", "{CF4D2ACD-7931-4A7A-B03F-9779D0DF6938}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Designing and building classes!!", "Designing and building classes!!\Designing and building classes!!.csproj", "{CF4D2ACD-7931-4A7A-B03F-9779D0DF6938}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCar", "TestCar\TestCar.csproj", "{A6072954-46F4-4EF2-A3C0-A0B4FEB8935A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +173,10 @@ Global
 		{CF4D2ACD-7931-4A7A-B03F-9779D0DF6938}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF4D2ACD-7931-4A7A-B03F-9779D0DF6938}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF4D2ACD-7931-4A7A-B03F-9779D0DF6938}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6072954-46F4-4EF2-A3C0-A0B4FEB8935A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6072954-46F4-4EF2-A3C0-A0B4FEB8935A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6072954-46F4-4EF2-A3C0-A0B4FEB8935A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6072954-46F4-4EF2-A3C0-A0B4FEB8935A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
