@@ -57,7 +57,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IOINK", "IOINK\IOINK.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Designing and building classes!!", "Designing and building classes!!\Designing and building classes!!.csproj", "{CF4D2ACD-7931-4A7A-B03F-9779D0DF6938}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCar", "TestCar\TestCar.csproj", "{A6072954-46F4-4EF2-A3C0-A0B4FEB8935A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestCar", "TestCar\TestCar.csproj", "{A6072954-46F4-4EF2-A3C0-A0B4FEB8935A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grazer", "Grazer\Grazer.csproj", "{A6E9FF3B-77FF-4709-8D01-5EDC8E1720DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +179,10 @@ Global
 		{A6072954-46F4-4EF2-A3C0-A0B4FEB8935A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6072954-46F4-4EF2-A3C0-A0B4FEB8935A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6072954-46F4-4EF2-A3C0-A0B4FEB8935A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6E9FF3B-77FF-4709-8D01-5EDC8E1720DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6E9FF3B-77FF-4709-8D01-5EDC8E1720DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6E9FF3B-77FF-4709-8D01-5EDC8E1720DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6E9FF3B-77FF-4709-8D01-5EDC8E1720DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
